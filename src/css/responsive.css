@@ -1,0 +1,176 @@
+
+/*---------------------------------------------------------*
+                  Screen width ( > 575)
+----------------------------------------------------------*/
+@media screen and (min-width: 575px) {
+  .hero-bg {
+    background: url(../img/hero-m.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .headline {
+    font-size: 2.4em;
+  }
+
+  .headline > span {
+    line-height: 0.4;
+  }
+
+  .section__intro {
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+
+  .core-blocks__block {
+    align-self: center;
+    width: 50%;
+  }
+
+  .block_intro {
+    align-self: flex-start;
+  }
+
+  .block_intro > p {
+    padding: 0.2em 0.4em;
+  }
+
+  .intro-img {
+    height: 80px;
+  }
+
+  .block__text {
+    text-align: left;
+    padding: 2em 2.6em 1em 2em;
+  }
+
+  .pull-left {
+    order: -1;
+  }
+}
+
+/*---------------------------------------------------------*
+                  Screen width ( > 768)
+----------------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  .nav h2 {
+    font-size: 2em;
+    margin: 1.4em 0 0 0;
+    letter-spacing: 0.1em;
+  }
+
+  .button {
+    letter-spacing: 0.15em;
+  }
+
+  .headline {
+    font-size: 2.6em;
+  }
+
+  .block_intro > p {
+    padding: 0.2em 2.4em;
+  }
+
+  .block_intro > span {
+    display: block;
+    color: #51350d;
+    position: absolute;
+    left: 49%;
+    margin-top: 8em;
+  }
+}
+
+/*---------------------------------------------------------*
+                  Screen width ( > 960)
+----------------------------------------------------------*/
+@media screen and (min-width: 960px) {
+  p, em {
+    font-size: 1em;
+  }
+
+  .headline {
+    font-size: 3.8em;
+    font-weight: 900;
+  }
+
+  .headline > span {
+    line-height: 0.2;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .section__intro {
+    margin-top: 6em;
+    margin-bottom: 10em;
+  }
+
+
+  .section__web > .core-blocks, .section__game > .core-blocks , .section__animation > .core-blocks{
+    height: 400px;
+    width: 960px;
+  }
+
+  /* extend block bg to full screen width */
+  section .block_bg_1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background-color: #f7f7f7;
+    z-index: -10;
+  }
+
+  section .block_bg_2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background-color: #f0f0f0;
+    z-index: -10;
+  }
+
+  .block_intro > p {
+    padding: 0.2em 4.2em;
+  }
+
+  .intro_game::before {
+    margin-top: 20px;
+    left: 48%;
+  }
+
+  .block__text {
+    padding: 2.6em 4.8em 1em 5.6em;
+  }
+
+  .button-project {
+    padding: 6px 28px;
+    font-size: 1em;
+  }
+
+  .button-project:after {
+    top: -3px;
+  }
+
+  .social-links__list {
+    width: 42px;
+    height: 42px;
+    font-size: 0.6em;
+    margin: 0 1.2em;
+  }
+}
+
+/*---------------------------------------------------------*
+                  Screen width ( > 1200)
+----------------------------------------------------------*/
+@media screen and (min-width: 1200px) {
+  .hero-bg {
+    background: url(../img/hero-l.jpeg) no-repeat center center;
+    background-size: cover;
+  }
+}

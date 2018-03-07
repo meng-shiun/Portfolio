@@ -1,0 +1,32 @@
+
+/*---------------------------------------------------------*
+                  Screen height
+----------------------------------------------------------*/
+@media screen and (max-height: 350px) {
+  .hero-container{
+    justify-content: flex-start;
+  }
+
+  .headline {
+    font-size: 1.8em;
+    margin-top: 60px;
+  }
+
+  .headline > span {
+    line-height: 0.6;
+  }
+}
+
+@media screen and (min-height: 351px) and (max-height: 450px) {
+  .hero-container{
+    justify-content: space-around;
+  }
+
+  .headline {
+    font-size: 2em;
+  }
+
+  .headline > span {
+    line-height: 0.8;
+  }
+}
