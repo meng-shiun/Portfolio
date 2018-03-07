@@ -16,6 +16,10 @@
     line-height: 0.4;
   }
 
+  .button-header {
+    left: 30%; right: 30%;
+  }
+
   .section__intro {
     margin-top: 2em;
     margin-bottom: 4em;
@@ -66,6 +70,10 @@
     font-size: 2.6em;
   }
 
+  .button-header {
+    left: 35%; right: 35%;
+  }
+
   .block_intro > p {
     padding: 0.2em 2.4em;
   }
@@ -94,6 +102,12 @@
 
   .headline > span {
     line-height: 0.2;
+  }
+
+  .button-header {
+    margin: auto;
+    position: absolute;
+    width: 200px;
   }
 
   .container {

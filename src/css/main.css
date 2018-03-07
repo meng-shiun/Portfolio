@@ -135,10 +135,10 @@ ul {
 
 .button-header {
   margin-bottom: 10px;
-  align-self: center;
   color: #fff;
   position: absolute;
   bottom: 50px;
+  left: 20%; right: 20%;
   cursor: pointer;
   -webkit-transition: color 0.9s, border 0.5s ease;
   transition: color 0.9s, border 0.5s ease;
