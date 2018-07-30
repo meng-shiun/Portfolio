@@ -6,6 +6,8 @@ $(document).ready(function() {
 
 $('.button-header').on('click', function() {
   smoothScroll($('#intro'));
+  // Avoid jumping to #intro tag after reloading page
+  return false;
 });
 
 

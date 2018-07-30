@@ -16,7 +16,10 @@ html {
   -o-transition: none !important;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
@@ -238,8 +241,7 @@ section > h2 {
   width: 100%;
 }
 
-.section__game .project-img,
-.section__animation .project-img {
+.project-img {
   padding: 0.1em;
   border: 1px solid #aaa;
 }
